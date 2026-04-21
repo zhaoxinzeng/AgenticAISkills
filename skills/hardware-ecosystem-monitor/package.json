@@ -1,0 +1,18 @@
+{
+  "name": "hardware-ecosystem-monitor",
+  "version": "1.0.0",
+  "description": "多硬件生态舆情监控系统",
+  "scripts": {
+    "fetch-news": "node scripts/fetch-news.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.3.0",
+    "openai": "^1.12.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@google/genai": "^0.2.0"
+  }
+}
